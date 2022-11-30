@@ -6,8 +6,14 @@ b=st.number_input("Enter Second Number:")
 c=st.number_input("Enter Third Number:")
 
 if (a>b) and (a>c):
-  st.write("a is greater")
+  st.write("a is greater")  
 elif (b>a) and (b>c):
   st.write("b is greater")
+elif (b==a) and (b>c):
+  st.write("a,b is greater")
+elif (b==c) and (c>a):
+  st.write("b,c is greater")
+elif (a==c) and (a>b):
+  st.write("a,c is greater")
 else:
   st.write("c is greater")
