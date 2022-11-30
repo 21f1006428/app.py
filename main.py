@@ -15,5 +15,7 @@ elif (b==c) and (c>a):
   st.write("b,c is greater")
 elif (a==c) and (a>b):
   st.write("a,c is greater")
+elif (a==b) and (b==c) and (a==c):
+  st.write("a,b,c is equal")
 else:
   st.write("c is greater")
